@@ -1,8 +1,15 @@
 .game-container {
   text-align: center;
   padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
+.grid-container {
+  max-width: 400px;
+  margin-top: 20px;
+}
 .gridContainer {
   max-width: 400px;
   margin-top: 20px;
